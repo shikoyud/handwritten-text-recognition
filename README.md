@@ -110,8 +110,11 @@ Notebooks import modules from `src/` (`datasets`, `models`, `utils`). Set **`PYT
    ```
 
    Alternatively, set `PYTHONPATH` in the integrated terminal before running cells (see below).
-
-6. Run all cells in `baseline.ipynb` to train for 5 epochs and save `results/best_model.pth`.
+6. If it doesn't working, open your terminal and run this in the project root:
+   ```bash
+   uv pip install -e .
+   ```
+7. Run all cells in `baseline.ipynb` to train for 5 epochs and save `results/best_model.pth`.
 
 ### Option B — Jupyter from the terminal
 
