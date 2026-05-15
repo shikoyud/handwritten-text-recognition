@@ -1,14 +1,5 @@
 # Handwritten Text Recognition
 
-A PyTorch project for recognizing handwritten characters (digits, uppercase and lowercase letters) using the [EMNIST Balanced](https://www.nist.gov/itl/products-and-services/emnist-dataset) dataset. A small CNN baseline is implemented in `src/` and trained interactively in Jupyter notebooks.
-
-## Features
-
-- **EMNIST Balanced** — 47 classes (0–9, A–Z, a–z, and a few punctuation marks)
-- **`EMNISTDataset`** — loads CSV exports, corrects EMNIST orientation, normalizes pixels to `[0, 1]`
-- **`SimpleCNN`** — two convolutional blocks plus a linear classifier (47 outputs)
-- **`get_char`** — maps class indices to display characters via the EMNIST label mapping
-
 ## Project structure
 
 ```
