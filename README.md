@@ -95,17 +95,7 @@ uv sync
 
 This creates `.venv` and installs locked dependencies from `uv.lock` (PyTorch, pandas, matplotlib, ipykernel, etc.).
 
-### 3. Create the results directory
-
-Checkpoints are written under `results/` (not committed by default):
-
-```bash
-mkdir -p results          # Linux / macOS / Git Bash
-mkdir results             # Windows CMD
-New-Item -ItemType Directory -Force results   # Windows PowerShell
-```
-
-## Run notebooks
+### 3. Run notebooks
 
 Notebooks import modules from `src/` (`datasets`, `models`, `utils`). Set **`PYTHONPATH`** to the `src` folder before starting Jupyter or selecting a kernel in your editor.
 
